@@ -11,10 +11,15 @@ int b;
 long int c;
 long long int d;
 float e;
+int sa = sizeof(a);
+int sb = sizeof(b);
+int sc = sizeof(c);
+int sd = sizeof(d);
+int se = sizeof(e);
 
-printf(sizeof(a));
-printf(sizeof(b));
-printf(sizeof(c));
-printf(sizeof(d));
-printf(sizeof(e));
+printf("%d", sa);
+printf("%d", sb);
+printf("%d", sc);
+printf("%d", sd);
+printf("%d", se);
 }
