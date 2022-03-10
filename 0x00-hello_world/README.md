@@ -1,1 +1,1 @@
-Im rtaking my baby stets in c
+Im taking my baby steps in c
