@@ -22,4 +22,5 @@ printf("Size of an int: %d byte(s)\n", sb);
 printf("Size of a long int: %d byte(s)\n", sc);
 printf("Size of a long long int: %d byte(s)\n", sd);
 printf("Size of a float: %d byte(s)\n", se);
+return (0);
 }
