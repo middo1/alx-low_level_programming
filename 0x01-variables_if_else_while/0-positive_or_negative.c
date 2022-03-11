@@ -4,8 +4,8 @@
 /* more headers goes there */
 /* betty style doc for function main goes there */
 /**
- * main - Entry point
- * Return - always 0
+ * main - Determines if an integer is postive, negative or zero
+ * Return - always 0 (Success)
  */
 int main(void)
 {
