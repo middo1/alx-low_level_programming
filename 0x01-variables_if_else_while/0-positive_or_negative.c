@@ -2,11 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 /* more headers goes there */
-/**
- * main - entry point
- * return - always 0
- */
 /* betty style doc for function main goes there */
+/**
+ * main - Entry point
+ * Return - always 0
+ */
 int main(void)
 {
 	int n;
@@ -19,6 +19,6 @@ int main(void)
 	else if (n > 0)
 		printf("%d is positive\n", n);
 	else
-		printf("%d is equal to zero\n", n);
+		printf("%d is zero\n", n);
 	return (0);
 }
