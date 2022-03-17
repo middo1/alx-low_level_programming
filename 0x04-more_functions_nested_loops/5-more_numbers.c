@@ -18,6 +18,6 @@ void more_numbers(void)
 			_putchar(x % 10 + '0');
 		}
 		_putchar('\n');
-		n++
+		n++;
 	}
 }
