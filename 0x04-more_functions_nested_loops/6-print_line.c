@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_line - Entry point
- * @n - the number of times that _ is printed
+ * @n: the number of times that _ is printed
  */
 void print_line(int n)
 {	
