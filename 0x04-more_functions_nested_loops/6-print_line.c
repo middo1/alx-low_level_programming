@@ -4,7 +4,7 @@
  * @n: the number of times that _ is printed
  */
 void print_line(int n)
-{	
+{
 	if (n > 0)
 	{
 		int m;
