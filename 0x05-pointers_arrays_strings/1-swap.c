@@ -4,7 +4,7 @@
  * @a:first int to be swapped
  * @b:second int to be swapped
  */
-void swap_int(int *a, int *a)
+void swap_int(int *a, int *b)
 {
 	int tmp;
 
