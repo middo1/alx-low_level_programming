@@ -23,14 +23,14 @@ void puts_half(char *str)
 			if (i >= count/2)
 			{
 				_putchar(*(s + i));
-			}	
+			}
 		}
 		_putchar('\n');
 	} else
 	{
 		for (i = 0; i <= (count -1); i++)
 		{
-			if (i >= ((count)/2))
+			if (i > ((count - 1)/2))
 			{
 				_putchar(*(s + i));
 			}
