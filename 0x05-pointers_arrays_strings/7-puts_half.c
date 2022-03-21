@@ -20,7 +20,7 @@ void puts_half(char *str)
 	{
 		for (i = 0; i <= (count - 1); i++)
 		{
-			if (i >= count/2)
+			if (i >= count / 2)
 			{
 				_putchar(*(s + i));
 			}
@@ -28,9 +28,9 @@ void puts_half(char *str)
 		_putchar('\n');
 	} else
 	{
-		for (i = 0; i <= (count -1); i++)
+		for (i = 0; i <= (count - 1); i++)
 		{
-			if (i > ((count - 1)/2))
+			if (i > ((count - 1) / 2))
 			{
 				_putchar(*(s + i));
 			}
