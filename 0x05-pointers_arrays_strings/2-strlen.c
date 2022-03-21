@@ -2,7 +2,7 @@
 /**
  * _strlen - Entry point
  * @s:str that its char are to be counted
- * return:the len of the string
+ * Return:the len of the string
  */
 int _strlen(char *s)
 {
@@ -12,5 +12,5 @@ int _strlen(char *s)
 	{
 		s++;
 	}
-	return i;
+	return (i);
 }
