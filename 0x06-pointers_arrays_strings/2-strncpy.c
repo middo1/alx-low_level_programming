@@ -18,7 +18,6 @@ char *_strncpy(char *dest, char *src, int n)
 		if (j >= i)
 		{
 			dest[j] = '\0';
-			break;
 		}
 	}
 	return (dest);
