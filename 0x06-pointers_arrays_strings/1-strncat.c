@@ -15,7 +15,7 @@ char *_strncat(char *dest, char *src, int n)
 		++i;
 	for (j = 0; src[j] != '\0';)
 		++j;
-	if (n < 1024)
+	if (n < j)
 	{
 		for (j = 0; j < n; ++j, ++i)
 		{
