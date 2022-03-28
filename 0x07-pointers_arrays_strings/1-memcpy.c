@@ -16,5 +16,5 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 	{
 		cdest[i] = csrc[i];
 	}
-	return (cdest);
+	return (dest);
 }
