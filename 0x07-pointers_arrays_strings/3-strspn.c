@@ -12,18 +12,19 @@ unsigned int _strspn(char *s, char *accept)
 
 	for (i = 0 ; *(s + i) != '\0' ; i++)
 	{
+		res = 1;
 		for (j = 0; *(accept + j) != '\0' ; j++)
 		{
 			if (*(s + i) == *(accept + j))
 			{
-				res += 1;
+				res = 0;
 				break;
 			}
 		}
-		if (*(s + i) != *(accept + j))
+		if (res == 1)
 		{
 			break;
 		}
 	}
-	return (res);
+	return (i);
 }
