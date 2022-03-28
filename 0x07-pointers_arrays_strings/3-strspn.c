@@ -5,7 +5,7 @@
  * @accept: second string
  * Return: result
  */
- unsigned int _strspn(char *s, char *accept)
+unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int res, i ,j;
 
