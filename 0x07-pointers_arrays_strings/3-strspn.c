@@ -1,13 +1,12 @@
 /**
  * _strspn - Entry point
  * @s: first string
- * @f: second string
+ * @accept: second string
  * Return: result
  */
  unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int res;
-	int i ,j;
+	unsigned int res, i ,j;
 
 	for (i = 0 ; *(s + i) != '\0' ; i++)
 	{
