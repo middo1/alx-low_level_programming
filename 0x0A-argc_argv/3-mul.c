@@ -12,9 +12,9 @@ int main(int argc, char **argv)
 	{
 		printf("Error\n");
 		return (1);
-	} else 
+	} else
 	{
-		printf("%d\n", atoi(*(argv + 1)) * atoi(*(argv +2)));
+		printf("%d\n", atoi(*(argv + 1)) * atoi(*(argv + 2)));
 		return (0);
 	}
 }
