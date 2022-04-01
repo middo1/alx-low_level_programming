@@ -1,15 +1,16 @@
 #include <stdio.h>
-#include "main.h"
-
 /**
  * main - Entry point
  * @argc: number of argument
- * @argv: values
+ * @argv: values entered
  * Return: 0
  */
 int main(int argc, char *argv[])
 {
-	while (argc--)
-		printf("%s\n", argv[0]);
+	int res;
+
+	for (res = 0; argv[res] != NULL && res < argc; res++)
+		;
+	printf("%d\n", res - 1);
 	return (0);
 }
